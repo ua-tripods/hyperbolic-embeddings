@@ -16,6 +16,18 @@ https://www.overleaf.com/12906574frzcjzngxfcq#/49351789/
 
 2. Learning Continuous Hierarchies in the Lorentz Model of Hyperbolic Geometry M Nickel, D Kiela, ICML 2018: https://arxiv.org/abs/1806.03417  
 
+## Word2Vec initial papers and popular blogposts
+
+1. Initial word2vec papers: Distributed Representations of Words and Phrases and their Compositionality, Mikolov et. al., NIPS 2013: https://arxiv.org/pdf/1310.4546.pdf 
+
+2. GloVE - one of the most popular word embeddings used in NLP (from Stanford NLP group): https://nlp.stanford.edu/projects/glove/
+
+3. Sebastian Ruder's blogposts on word embeddings: (1) http://ruder.io/word-embeddings-1/ (2) http://ruder.io/word-embeddings-softmax/ (3) http://ruder.io/secret-word2vec/ (4) http://ruder.io/cross-lingual-embeddings/ (5) http://ruder.io/word-embeddings-2017/ (6) http://ruder.io/nlp-imagenet/
+
+4. Chris Olah's blog posts on embeddings: (1) http://colah.github.io/posts/2014-03-NN-Manifolds-Topology/ (2) http://colah.github.io/posts/2014-07-NLP-RNNs-Representations/ 
+
+5. ELMo, the newer crop of word embeddings: https://allennlp.org/elmo  
+
 ### Implementations and other resources
 
 1. https://github.com/HazyResearch/hyperbolics -- implementation from the Stanford group (Chris Re). Also a blogpost: https://dawn.cs.stanford.edu/2018/03/19/hyperbolics/  
