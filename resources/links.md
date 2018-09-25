@@ -67,7 +67,8 @@ stereographic projection of hyperbolic space as a "third" way to
 parameterize and work with hyperbolic spaces).  And, per our
 discussion, my understanding is that the stereographic projection
 isn't really the *one* of the three constructions we're currently more
-excited about.  ```
+excited about.
+```
 
 Dave's response (20180911): 
 ```In response to Clay, stereographic
@@ -88,4 +89,5 @@ to the plane. Generally the first one is the best to work with, but
 isn't a coodinate chart. The second is a coordinate chart, and
 conformal (preserves angles but not distance). The last one gives
 coordinate charts and straight lines are straight, but it doesn't
-preserve angles or distance.  ```
+preserve angles or distance.
+```
