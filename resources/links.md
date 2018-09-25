@@ -49,21 +49,43 @@ https://www.overleaf.com/12906574frzcjzngxfcq#/49351789/
 5. https://nbviewer.jupyter.org/github/RaRe-Technologies/gensim/blob/poincare_model_keyedvectors/docs/notebooks/Poincare%20Report.ipynb ( Note: This is a 3rd party and a dated implementation. See above for the implementation from the original authors
 
 6. Links to videos from Clay and his notes (20180906): 
-```
-Somewhat related to Dave's nice presentation today, Grant Sanderson (creator of the 3blue1brown on youtube channel videos: https://www.youtube.com/channel/UCYO_jab_esuFRV4b17AJtAw -- a favorite of mine) just happened to release another fantastic video, this time on quaternions, where he uses stereographic projection to develop the intuitions of quaternion operations.  
-    https://www.youtube.com/watch?v=d4EgbgTm0Bg
-... replete with his usual great animations.  As I follow things, everything done here involved using stereographic projections of "n-dimensional spherical spaces embedded in n+1 space" onto Euclidean space of R^n: a "2D sphere" (i.e., circle) onto R^1, a "3D sphere" (i.e., ball) onto R^2, and the a "4D sphere" onto R^3.  I'm not sure what it would mean to do stereographic projection from a "hyperbolic" space onto Euclidean space (possibly I misunderstood, but I think Dave counted stereographic projection of hyperbolic space as a "third" way to parameterize and work with hyperbolic spaces).  And, per our discussion, my understanding is that the stereographic projection isn't really the *one* of the three constructions we're currently more excited about.
-```
+```Somewhat related to Dave's nice presentation today, Grant Sanderson (creator of
+the 3blue1brown on youtube channel videos:
+https://www.youtube.com/channel/UCYO_jab_esuFRV4b17AJtAw -- a favorite
+of mine) just happened to release another fantastic video, this time
+on quaternions, where he uses stereographic projection to develop the
+intuitions of quaternion operations.
+https://www.youtube.com/watch?v=d4EgbgTm0Bg ... replete with his usual
+great animations.  As I follow things, everything done here involved
+using stereographic projections of "n-dimensional spherical spaces
+embedded in n+1 space" onto Euclidean space of R^n: a "2D sphere"
+(i.e., circle) onto R^1, a "3D sphere" (i.e., ball) onto R^2, and the
+a "4D sphere" onto R^3.  I'm not sure what it would mean to do
+stereographic projection from a "hyperbolic" space onto Euclidean
+space (possibly I misunderstood, but I think Dave counted
+stereographic projection of hyperbolic space as a "third" way to
+parameterize and work with hyperbolic spaces).  And, per our
+discussion, my understanding is that the stereographic projection
+isn't really the *one* of the three constructions we're currently more
+excited about.  ```
 
-Dave's response (20180911):
-```
-In response to Clay, stereographic projection of the sphere actually corresponds to the Poincare disk for hyperbolic space. The correspondences are here:
+Dave's response (20180911): 
+```In response to Clay, stereographic
+projection of the sphere actually corresponds to the Poincare disk for
+hyperbolic space. The correspondences are here:
 
-Sphere as a subspace of E^(n+1)   <-->  Hyperboloid as a subspace of E^(n,1) Lorenzian signature space
+Sphere as a subspace of E^(n+1) <--> Hyperboloid as a subspace of
+E^(n,1) Lorenzian signature space
 
-Stereographic projection of sphere to R^n  <--> Poincare disk model (and Poincare half space is basically the same)
+Stereographic projection of sphere to R^n <--> Poincare disk model
+(and Poincare half space is basically the same)
 
 Projective model of sphere as set of rays in R^(n+1) <--> Klein model
 
-There is actually a stereographic projection from the hyperboloid to the Poincare disk that works essentially like the one from the sphere to the plane. Generally the first one is the best to work with, but isn't a coodinate chart. The second is a coordinate chart, and conformal (preserves angles but not distance). The last one gives coordinate charts and straight lines are straight, but it doesn't preserve angles or distance.
-```
+There is actually a stereographic projection from the hyperboloid to
+the Poincare disk that works essentially like the one from the sphere
+to the plane. Generally the first one is the best to work with, but
+isn't a coodinate chart. The second is a coordinate chart, and
+conformal (preserves angles but not distance). The last one gives
+coordinate charts and straight lines are straight, but it doesn't
+preserve angles or distance.  ```
